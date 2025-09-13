@@ -1,9 +1,8 @@
-# simple_interest.py
+# rectangle_area.py
 
-principal = 1000
-rate = 0.05
-time = 3
+length = 10
+width = 5
 
-interest = principal * rate * time
+area = length * width
 
-print(f"The simple interest is: {interest}")
+print(f"The area of the rectangle is: {area}")
