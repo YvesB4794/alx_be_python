@@ -9,4 +9,4 @@ time = 3            # Time in years (3 years)
 interest = principal * rate * time
 
 # Step 3: Print the result in required format
-print(f"The simple interest is: {interest}")
+print("The simple interest is: {interest}")
