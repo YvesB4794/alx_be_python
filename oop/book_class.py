@@ -1,5 +1,3 @@
-# book_class.py
-
 class Book:
     """A class to represent a book."""
 
@@ -8,7 +6,6 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Book '{self.title}' has been created.")  # Optional for clarity
 
     def __str__(self):
         """User-friendly string representation."""
@@ -21,4 +18,3 @@ class Book:
     def __del__(self):
         """Destructor: called when the object is deleted."""
         print(f"Deleting {self.title}")
-
